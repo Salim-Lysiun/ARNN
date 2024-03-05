@@ -21,8 +21,8 @@ Our repository is arranged as follows:
 models /
     # Contains the ARNN and others baseline models    
 ```
-The dataset for the "polyphonic music modeling" experiment is already included in audio/data/. For other experiments that are based on much larger datasets, the data needs to be downloaded (from [torchvision.datasets](https://pytorch.org/docs/stable/torchvision/datasets.html) or [observations](https://github.com/edwardlib/observations)) and then put into the "data" folder which should be created firstly.
+The preprocessed CHB-MIT dataset can be downloaded from [pre-processed CHM-MIT](https://ieee-dataport.org/open-access/preprocessed-chb-mit-scalp-eeg-database), and the UPenn and Mayo's Clinic Seizure Detection Challenge dataset from [Upen nad Mayo](https://www.kaggle.com/c/seizure-detection). Subsequently, place it within the 'data' directory, ensuring that the directory is created beforehand..
 
-When data is ready, the code can directly run with PyTorch  1.0.0.
+Once the data is prepared, the code is compatible for direct execution with Torch version==2.1.2.
 ## Final Words
-We will keep this repo updated and hope it is useful to your research. 
+We aim to maintain this repository with regular updates, aspiring for its relevance and practicality in supporting your research endeavors. 
