@@ -17,4 +17,4 @@ advantages of attention layers and LSTM gate while avoiding their respective dra
 through extensive experiments with heterogeneous datasets, including the CHB-MIT and UPenn and Mayo’s Clinic, CHB-MIT
 datasets. The empirical findings indicate that the ARNN model exhibits enhanced performance compared to the baseline methods
 LSTM, Vision Transformer (ViT), Compact Convolution Transformer (CCT), and R-Transformer (RT) model and demonstrates
-faster processing capabilities across the majority of tasks. (ARNN-Arch.png)
+faster processing capabilities across the majority of tasks. ![](ARNN-Arch.png)
